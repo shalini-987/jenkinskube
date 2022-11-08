@@ -34,7 +34,6 @@ selector:
   app: hello
   tier: hello
 type: LoadBalancer/hello:latest
-      imagePullPolicy: Always
       ports:
       - containerPort: 5000
         name: hello

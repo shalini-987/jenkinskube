@@ -15,7 +15,6 @@ template:
     containers:
     - name: hello
       image: singhshalini018/hello:latest
-      imagePullPolicy: Always
       ports:
       - containerPort: 5000
         name: hello
